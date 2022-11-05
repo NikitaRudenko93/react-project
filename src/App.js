@@ -1,16 +1,12 @@
 import "./App.scss";
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Footer from "./components/Footer";
 
+import StarsFunk from "./components/StarsFunk";
+import StarClass from "./components/StarClass";
 function App() {
   return (
     <>
-      <Header></Header>
-      <AboutMe></AboutMe>
-      <Skills></Skills>
-      <Footer></Footer>
+      <StarsFunk id={5} />
+      <StarClass star={5} />
     </>
   );
 }
