@@ -6,6 +6,9 @@ div {
 
 .star {
   cursor: pointer;
-  transition: color 200ms;
   display: inline-block;
+}
+
+svg {
+  transition: color 200ms;
 }
