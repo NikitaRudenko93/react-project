@@ -5,8 +5,8 @@ import StarClass from "./components/StarClass";
 function App() {
   return (
     <>
-      <StarsFunk />
-      <StarClass />
+      <StarsFunk rate={3} />
+      <StarClass rate={4} />
     </>
   );
 }

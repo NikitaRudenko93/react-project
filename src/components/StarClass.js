@@ -33,7 +33,7 @@ class StarClassNew extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      value: 0,
+      rate: this.props.rate,
       hover: null,
     };
   }
@@ -48,8 +48,8 @@ class StarClassNew extends React.PureComponent {
             <>
               <Star
                 id={rateIndex}
-                active={this.state.hover || this.state.value}
-                setRate={() => this.setState({ value: rateIndex })}
+                active={this.state.hover || this.state.rate}
+                setRate={() => this.setState({ rate: rateIndex })}
                 setRateHov={() => this.setState({ hover: rateIndex })}
                 setRateHovOff={() => this.setState({ hover: null })}
               ></Star>
